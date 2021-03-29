@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "QaDrZFye0MD/wUyyDSzQs6sQy37zHm/f7FVesiAK3PEypurO7qU48cY10xU2GsNGnUERs92UD4P2eH6HPdDAAg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Test\\AngularTestSeparate\\AngularWebApp\\AngularWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.13\\microsoft.aspnetcore.nodeservices.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.13\\microsoft.aspnetcore.spaservices.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\5.0.4\\microsoft.aspnetcore.spaservices.extensions.5.0.4.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.13\\microsoft.extensions.configuration.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.13\\microsoft.extensions.configuration.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.13\\microsoft.extensions.configuration.binder.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.13\\microsoft.extensions.dependencyinjection.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.13\\microsoft.extensions.dependencyinjection.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.logging\\3.1.13\\microsoft.extensions.logging.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.13\\microsoft.extensions.logging.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.13\\microsoft.extensions.logging.configuration.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.13\\microsoft.extensions.logging.console.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.options\\3.1.13\\microsoft.extensions.options.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.13\\microsoft.extensions.options.configurationextensions.3.1.13.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\microsoft.typescript.msbuild\\4.2.3\\microsoft.typescript.msbuild.4.2.3.nupkg.sha512",
+    "C:\\Users\\kbale\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
