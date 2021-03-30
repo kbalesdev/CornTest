@@ -1,1 +1,5 @@
 /AngularTestSeparate/appsettings.json
+/AngularTestSeparate/bin
+/AngularTestSeparate/obj
+/.vs
+/angular-test
