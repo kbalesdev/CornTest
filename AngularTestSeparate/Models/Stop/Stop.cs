@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using AngularTestSeparate.Models.Enums;
 
 namespace AngularTestSeparate.Models.Stop
@@ -14,6 +15,9 @@ namespace AngularTestSeparate.Models.Stop
 
         [Required]
         public StopTypes StopType { get; set; }
+
+        [Column(TypeName = "varchar(200)")]
+        public string RefNumber { get; set; }
 
         public DateTime EarliestAppointment { get; set; }
 
