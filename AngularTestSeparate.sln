@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularTestSeparate", "AngularTestSeparate\AngularTestSeparate.csproj", "{79A84740-E89D-4436-AE1E-11377302EC0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularWebApp", "AngularWebApp\AngularWebApp.csproj", "{6B28CF60-845D-440A-B424-6F7DD776A03A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularWebApp", "AngularWebApp\AngularWebApp.csproj", "{6B28CF60-845D-440A-B424-6F7DD776A03A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
