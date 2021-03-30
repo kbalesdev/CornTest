@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Type</th>
+    <th scope="col">Appointment</th>
+    <th scope="col">Location</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stop of orderService.order.stops">
+      <td>{{stop.stopTypes}}</td>
+      <td>{{stop.earliestAppointment}}</td>
+      <td>{{stop.location.city.cityName}}, {{stop.location.city.state}}</td>
+    </tr>
+  </tbody>
+</table>
