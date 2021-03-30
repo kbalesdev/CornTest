@@ -1,33 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Test\\AngularTestSeparate\\AngularTestSeparate\\AngularTestSeparate.csproj": {}
+    "C:\\projects\\Test\\CornTest\\AngularTestSeparate\\AngularTestSeparate.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Test\\AngularTestSeparate\\AngularTestSeparate\\AngularTestSeparate.csproj": {
+    "C:\\projects\\Test\\CornTest\\AngularTestSeparate\\AngularTestSeparate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Test\\AngularTestSeparate\\AngularTestSeparate\\AngularTestSeparate.csproj",
+        "projectUniqueName": "C:\\projects\\Test\\CornTest\\AngularTestSeparate\\AngularTestSeparate.csproj",
         "projectName": "AngularTestSeparate",
-        "projectPath": "C:\\Projects\\Test\\AngularTestSeparate\\AngularTestSeparate\\AngularTestSeparate.csproj",
-        "packagesPath": "C:\\Users\\kbale\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Test\\AngularTestSeparate\\AngularTestSeparate\\obj\\",
+        "projectPath": "C:\\projects\\Test\\CornTest\\AngularTestSeparate\\AngularTestSeparate.csproj",
+        "packagesPath": "C:\\Users\\dsmit\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Test\\CornTest\\AngularTestSeparate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kbale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dsmit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://nuget.grapecity.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -98,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
