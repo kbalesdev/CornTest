@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { OrderService } from "../services/order.service";
-import { Order } from "../models/order.model";
 
 @Component({
   selector: 'app-load-view',
@@ -13,8 +12,6 @@ export class LoadViewComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.orderService.getOrderById(333);
-    console.log(this.orderService.order);
   }
 
 }

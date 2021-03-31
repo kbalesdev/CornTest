@@ -44,6 +44,8 @@ namespace AngularTestSeparate.Controllers
                 .Include(s => s.Stops)
                 .ThenInclude(l => l.Location)
                 .ThenInclude(c => c.City)
+                .Include(s => s.Stops)
+                .ThenInclude(s => s.StopType)
                 .ToListAsync();
 
             if (order.Any())

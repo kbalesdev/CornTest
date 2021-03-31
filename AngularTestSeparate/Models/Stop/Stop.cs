@@ -12,9 +12,9 @@ namespace AngularTestSeparate.Models.Stop
 
         [Required]
         public int StopSequence { get; set; }
-
-        [Required]
-        public StopTypes StopType { get; set; }
+        
+        public StopTypes StopTypeId { get; set; }
+        public virtual StopType StopType { get; set; }
 
         [Column(TypeName = "varchar(200)")]
         public string RefNumber { get; set; }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OrderService } from "../../services/order.service";
+import { Order } from "../../models/order.model";
 
 @Component({
   selector: 'app-stop-detail',
@@ -8,9 +9,22 @@ import { OrderService } from "../../services/order.service";
 })
 export class StopDetailComponent implements OnInit {
 
-  constructor(public orderService: OrderService) { }
+  order: Order;
+
+  constructor(public orderService: OrderService) {
+    this.order = new Order();
+  }
 
   ngOnInit(): void {
+    this.getOrderById();
+  }
+
+  getOrderById(): void {
+    this.orderService.getOrderById(333)
+      .subscribe(order => {
+        console.log(order);
+        this.order = order;
+      });
   }
 
 }
