@@ -1,17 +1,20 @@
 <div *ngIf="order.stops && order.stops.length > 0">
-  <table class="table">
+  <table class="table mb-2">
     <thead>
       <tr>
-        <th scope="col">Type</th>
-        <th scope="col">Appointment</th>
-        <th scope="col">Location</th>
+        <th scope="col" style="width: 6%;">Type</th>
+        <th scope="col" style="width: 25%;">Appointment</th>
+        <th scope="col" style="width: 45%;">Location</th>
+        <th scope="col" style="width: 10%;">Miles</th>
+        <th scope="col" style="width: 6%;">Tag</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let stop of order.stops">
-        <td>{{stop.stopType.description}}</td>
-        <td>{{stop.earliestAppointment}}</td>
+        <td>{{stop.stopType.description}}[{{stop.stopSequence}}]</td>
+        <td>{{stop.earliestAppointment | date:'M/d/yy HH:mm'}}</td>
         <td>{{stop.location.city.cityName}}, {{stop.location.city.state}}</td>
+        <td>0 mi</td>
       </tr>
     </tbody>
   </table>

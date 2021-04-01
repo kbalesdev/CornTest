@@ -9,23 +9,11 @@ import { Observable } from 'rxjs'
 export class OrderService {
 
   readonly baseUrl = 'http://localhost:49384/api/order';
-  order: Order;
 
   constructor(private http: HttpClient) {
-    this.order = new Order();
   }
 
   getOrderById(id: number): Observable<Order> {
-    let test = this.http.get<Order>(`${this.baseUrl}/getById/${id}`);
-    console.log(test);
-    return test;
-
-    //this.http.get(`${this.baseUrl}/getById/${id}`)
-    //  .toPromise()
-    //  .then(res => {
-    //    console.log(res);
-    //    this.order = res as Order;
-    //    console.log(this.order);
-    //  });
+    return this.http.get<Order>(`${this.baseUrl}/getById/${id}`);
   }
 }
