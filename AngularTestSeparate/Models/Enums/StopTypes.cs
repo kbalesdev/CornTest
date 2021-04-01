@@ -3,7 +3,7 @@
     public enum StopTypes
     {
         Unknown = 0,
-        Pickup = 1,
-        Delivery = 2
+        Pick = 1,
+        Drop = 2
     }
 }

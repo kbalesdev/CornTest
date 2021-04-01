@@ -28,8 +28,8 @@ namespace AngularTestSeparate.Models.Context
 
             modelBuilder.Entity<StopType>()
                 .HasData(
-                    new {Id = Enums.StopTypes.Pickup, Description = "Pickup"},
-                    new {Id = Enums.StopTypes.Delivery, Description = "Delivery"});
+                    new {Id = Enums.StopTypes.Pick, Description = "Pick"},
+                    new {Id = Enums.StopTypes.Drop, Description = "Drop"});
         }
     }
 }

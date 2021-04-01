@@ -1,0 +1,66 @@
+/* sizes */
+.size-tiny {
+  font-size: 0.65rem !important;
+}
+
+.size-xsmall {
+  font-size: 0.75rem !important;
+}
+
+.size-small {
+  font-size: 0.87em !important;
+}
+
+.size-medium {
+  font-size: 0.95em !important;
+}
+
+.size-large {
+  font-size: 1.5em !important;
+}
+
+.size-xlarge {
+  font-size: 2em !important;
+}
+
+/* weights */
+.f-w-300 {
+  font-weight: 300;
+}
+
+.f-w-400 {
+  font-weight: 400;
+}
+
+.f-w-500 {
+  font-weight: 500;
+}
+
+.f-w-700 {
+  font-weight: 700;
+}
+
+/* colors */
+.color-black {
+  color: #383838 !important;
+}
+
+.color-gray {
+  color: #a0a0a0 !important;
+}
+
+.color-gray-blue {
+  color: #b6bacb !important;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.color-red {
+  color: #bf1e2d !important;
+}
+
+.color-green {
+  color: #008000 !important;
+}

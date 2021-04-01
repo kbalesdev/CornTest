@@ -22,7 +22,6 @@ export class StopDetailComponent implements OnInit {
   getOrderById(): void {
     this.orderService.getOrderById(333)
       .subscribe(order => {
-        console.log(order);
         this.order = order;
       });
   }
