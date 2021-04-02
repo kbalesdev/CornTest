@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoadViewComponent } from './load-view/load-view.component';
 import { StopDetailComponent } from './load-view/stop-detail/stop-detail.component';
+import { BookingDetailComponent } from './booking-detail/booking-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoadViewComponent,
-    StopDetailComponent
+    StopDetailComponent,
+    BookingDetailComponent
   ],
   imports: [
     BrowserModule,
