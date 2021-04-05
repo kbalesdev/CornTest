@@ -40,6 +40,10 @@
   font-weight: 700;
 }
 
+.f-italic {
+  font-style: italic;
+}
+
 /* colors */
 .color-black {
   color: #383838 !important;
