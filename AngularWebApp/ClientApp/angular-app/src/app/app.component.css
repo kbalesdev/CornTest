@@ -1,3 +1,7 @@
-.componentWrapper {
+.bookingDetailWrapper {
   min-height: 132px;
+}
+
+.workBenchWrapper {
+    min-height:450px;
 }
