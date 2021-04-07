@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'
+import { AngularMaterialModule } from '../app/angular-material.module'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +18,7 @@ import { ReservationsComponent } from './work-bench/reservations/reservations.co
 import { DiscoveryGlassComponent } from './discovery-glass/discovery-glass.component';
 import { SearchComponent } from './discovery-glass/search/search.component';
 import { LoadListComponent } from './discovery-glass/load-list/load-list.component';
-import { CarrierBrowserComponent } from './carrier-browser/carrier-browser.component'
+import { CarrierBrowserComponent } from './carrier-browser/carrier-browser.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { CarrierBrowserComponent } from './carrier-browser/carrier-browser.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
