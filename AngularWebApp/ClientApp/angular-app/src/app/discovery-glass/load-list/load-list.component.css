@@ -23,15 +23,18 @@
 }
 
 .table-wrapper {
-  max-height: 300px;
+  max-height: 310px;
+  max-width: 475px;
   overflow: auto;
   display: inline-block;
 }
 
 tr {
+  line-height: 0;
   font-size: 11px;
 }
 
 .table td, .table th {
   padding: 0.65rem;
+  white-space: nowrap;
 }
