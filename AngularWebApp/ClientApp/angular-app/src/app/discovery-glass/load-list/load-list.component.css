@@ -1,0 +1,37 @@
+.custom-tab-label {
+  color: #000;
+}
+
+.mat-tab-label {
+  height: 28px !important;
+  padding: 0 12px !important;
+  opacity: .6 !important;
+  min-width: 90px !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.mat-tab-label.mat-tab-label-active {
+  height: 28px;
+  padding: 0 12px;
+  opacity: 1;
+  min-width: 80px;
+}
+
+.mat-ink-bar {
+  background-color: blue !important;
+}
+
+.table-wrapper {
+  max-height: 300px;
+  overflow: auto;
+  display: inline-block;
+}
+
+tr {
+  font-size: 11px;
+}
+
+.table td, .table th {
+  padding: 0.65rem;
+}
